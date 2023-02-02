@@ -16,4 +16,4 @@ The JSON file `panels.json` within the API in the app's root folder is a mock DB
 
 ## Run the App
 
-To install all necessary dependencies use the command `$ npm install`. To launch the application in the browser use the command `$ npm start`.
+To install all necessary dependencies use the command `$ npm install`. To launch the application in the browser use the command `$ npm run start`.
