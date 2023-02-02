@@ -1,0 +1,20 @@
+.Home {
+	&__container {
+		a {
+			display: block;
+			text-align: right;
+			margin-bottom: 1rem;
+		}
+
+		a > button {
+			@include button-primary;
+
+			span {
+				font-family: monospace;
+				padding: 0.35rem;
+				margin-left: 0.35rem;
+				color: $color-red-primary;
+			}
+		}
+	}
+}

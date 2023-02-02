@@ -1,0 +1,39 @@
+.Modal {
+	&__overlay {
+		display: block;
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		backdrop-filter: blur(0.15rem);
+
+		z-index: 1;
+	}
+
+	&__body {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: $color-blue-secondary;
+		color: $color-black-primary;
+		padding: 1rem;
+		border-radius: 0.5rem;
+		min-width: 300px;
+
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+
+		z-index: 1;
+
+		button {
+			position: absolute;
+			top: 1rem;
+			right: 1rem;
+			opacity: 0.75;
+			padding: 0.5rem;
+		}
+	}
+}
